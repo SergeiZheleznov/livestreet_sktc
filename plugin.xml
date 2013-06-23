@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <name>
+        <lang name="default">Sktc. Tag Cloud</lang>
+    </name>
+    <author>
+        <lang name="default">Sergey Zheleznov</lang>
+    </author>
+    <homepage>sksdes@gmail.com</homepage>
+    <version>1.0.0</version>
+    <requires>
+        <livestreet>1.0.0</livestreet>
+        <plugins>
+        </plugins>
+    </requires>
+    <description>
+        <lang name="default">Заменяет блок облако тегов.</lang>
+    </description>
+</plugin>

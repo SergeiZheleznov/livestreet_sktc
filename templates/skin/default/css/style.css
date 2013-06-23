@@ -1,0 +1,8 @@
+.sktc-block-wrapper .tag-cloud li {display: block; float: none; text-align: left;}
+.sktc-block-wrapper .tag-cloud li a {text-decoration: none; display: block; line-height: 24px; height: 24px; overflow: hidden;}
+.sktc-block-wrapper .tag-cloud li a .sktc-tag-text {text-decoration: underline;}
+.sktc-block-wrapper .tag-cloud li a .sktc-tag-count {display: block; float: right; padding: 0 5px; line-height: 18px; margin: 3px 0; background: #5ACBFE; color: #fff; font-size: 9px;-webkit-border-radius: 9px;border-radius: 9px;}
+.sktc-block-wrapper .tag-cloud li a:hover .sktc-tag-count {background: #2ab6fe}
+
+.sktc-block-wrapper .tag-cloud li.active a .sktc-tag-text {color:#000;}
+.sktc-block-wrapper .tag-cloud li.active a .sktc-tag-count {background: #0180B6}
