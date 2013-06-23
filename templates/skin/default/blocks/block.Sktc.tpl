@@ -12,15 +12,7 @@
 		</ul>
 	</header>
 	
-	
 	<div class="block-content">
-		<form action="" method="GET" class="js-tag-search-form search-form-wrapper">
-			<div class="search-input-wrapper">
-				<input type="text" name="tag" placeholder="{$aLang.block_tags_search}" value="" class="input-text input-width-full autocomplete-tags js-tag-search" />
-				<div class="input-submit" onclick="jQuery('.js-tag-search-form').submit()"></div>
-			</div>
-		</form>
-
 		<div class="js-block-tags-content" data-type="all">
 			{if $aTags}
 				<ul class="tag-cloud word-wrap">
@@ -47,5 +39,12 @@
 				{/if}
 			</div>
 		{/if}
+
+		<form action="" method="GET" class="js-tag-search-form search-form-wrapper">
+			<div class="search-input-wrapper">
+				<input type="text" name="tag" placeholder="{$aLang.block_tags_search}" value="" class="input-text input-width-full autocomplete-tags js-tag-search" />
+				<div class="input-submit" onclick="jQuery('.js-tag-search-form').submit()"></div>
+			</div>
+		</form>
 	</div>
 </section>
