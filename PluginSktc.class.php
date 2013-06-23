@@ -1,8 +1,13 @@
 <?php
-
-/**
- * Запрещаем напрямую через браузер обращение к этому файлу.
- */
+/*-------------------------------------------------------
+*
+*   Plugin "Sktc. Замена стандартного облака тегов"
+*   Author: Zheleznov Sergey (skif)
+*   Site: livestreet.ru/profile/skif/
+*   Contact e-mail: sksdes@gmail.com
+*
+---------------------------------------------------------
+*/
 if (!class_exists('Plugin')) {
     die('Hacking attemp!');
 }

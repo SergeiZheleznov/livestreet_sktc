@@ -1,4 +1,13 @@
 <?php
+/*-------------------------------------------------------
+*
+*   Plugin "Sktc. Изменение стандартного облака тегов"
+*   Author: Zheleznov Sergey (skif)
+*   Site: livestreet.ru/profile/skif/
+*   Contact e-mail: sksdes@gmail.com
+*
+---------------------------------------------------------
+*/
 class PluginSktc_BlockSktc extends Block {
     public function Exec() {
 		$aTags=$this->oEngine->Topic_GetOpenTopicTags(Config::Get('block.tags.tags_count'));

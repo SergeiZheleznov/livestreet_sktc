@@ -1,4 +1,13 @@
 <?php
+/*-------------------------------------------------------
+*
+*   Plugin "Sktc. Изменение стандартного облака тегов"
+*   Author: Zheleznov Sergey (skif)
+*   Site: livestreet.ru/profile/skif/
+*   Contact e-mail: sksdes@gmail.com
+*
+---------------------------------------------------------
+*/
 class PluginSktc_ModuleTopic_MapperTopic extends PluginSktc_Inherit_ModuleTopic_MapperTopic {
 	public function GetOpenTopicTags($iLimit,$iUserId=null) {
 		$sql = "
