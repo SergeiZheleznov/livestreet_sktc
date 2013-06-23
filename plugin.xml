@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin>
     <name>
-        <lang name="default">Sktc. Tag Cloud</lang>
+        <lang name="default">Sktc. Замена облака тегов</lang>
     </name>
     <author>
         <lang name="default">Sergey Zheleznov</lang>
