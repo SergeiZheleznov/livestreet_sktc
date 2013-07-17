@@ -16,7 +16,7 @@ class PluginSktc extends Plugin {
 
     // Объявление делегирований (нужны для того, чтобы назначить свои экшны и шаблоны)
     public $aDelegates = array(
-
+        'template' => array('blocks/block.tags.tpl')
     );
 
     // Объявление переопределений (модули, мапперы и сущности)
@@ -34,7 +34,6 @@ class PluginSktc extends Plugin {
     public function Deactivate(){
         return true;
     }
-
 
     // Инициализация плагина
     public function Init() {

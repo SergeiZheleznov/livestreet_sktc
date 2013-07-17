@@ -9,7 +9,6 @@
 ---------------------------------------------------------
 */
 class PluginSktc_BlockTags extends PluginSktc_Inherit_BlockTags {
-
     public function Exec() {
 		$aTags=$this->oEngine->Topic_GetOpenTopicTags(Config::Get('block.tags.tags_count'));
 		if ($aTags) {
