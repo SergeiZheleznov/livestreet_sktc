@@ -22,6 +22,7 @@ class PluginSktc extends Plugin {
     // Объявление переопределений (модули, мапперы и сущности)
     protected $aInherits=array(
         'module' => array('ModuleTopic_MapperTopic'),
+        'block' => array('BlockTags')
     );
 
     // Активация плагина
@@ -38,9 +39,6 @@ class PluginSktc extends Plugin {
     // Инициализация плагина
     public function Init() {
         $this->Viewer_AppendStyle(Plugin::GetTemplatePath(__CLASS__)."css/style.css"); // Добавление своего CSS
-        //$this->Viewer_AppendScript(Plugin::GetTemplatePath(__CLASS__)."/js/script.js"); // Добавление своего JS
-
-        //$this->Viewer_AddMenu('blog',Plugin::GetTemplatePath(__CLASS__).'/menu.blog.tpl'); // например, задаем свой вид меню
     }
 }
 ?>
